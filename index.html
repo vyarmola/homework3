@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Опитування</h1>
+    <br>
+    <p>Це коротке опитування дозволить нам краще зрозуміти Ваші індивідуальні потреби та покращити рівень нашого обслуговування</p>
+    <form action="https://formspree.io/yarvas@googlemail.com" method="POST">
+    <ol>
+        <li>Ваша стать:<br>
+            <label>
+              <input type="radio" name="gender" id="input1" value="1" required>Жіноча<br>
+            </label>
+            <label>
+              <input type="radio" name="gender" id="input2" value="2">Чоловіча<br>
+            </label>
+        </li>
+        <li>Ваш вік:<br>
+            <label>
+              <input type="radio" name="age" id="input1" value="1" required>До 18 років<br>
+            </label>
+            <label>
+              <input type="radio" name="age" id="input2" value="2">Від 18 до 30 років<br>
+            </label>
+            <label>
+              <input type="radio" name="age" id="input3" value="3">Від 30 до 40 років<br>
+            </label>
+            <label>
+              <input type="radio" name="age" id="input4" value="4">Понад 50 років<br>
+            </label>
+        </li>
+        <li>Ваші побажання щодо графіку роботи аптеки:<br>
+            <label>
+              <input type="radio" name="work-hours" id="input1" value="1" required>З понеділка до п'ятниці (8:00-20:00), субота (8:00-18:00)<br>
+            </label>
+            <label>
+              <input type="radio" name="work-hours" id="input2" value="2">З понеділка до п'ятниці (9:00-21:00), субота (10:00-20:00)<br>
+            </label>
+            <label>
+              <input type="radio" name="work-hours" id="input3" value="3">24/7<br>
+            </label>
+            <input type="radio" name="work-hours" id="input4" value="4">
+            <input type="text" name="work-hours" id="input4" placeholder="Ваш варіант"><br>
+        </li>
+        <li>Якого асортименту товарів нам не вистачає:<br>
+             <input type="radio" name="assortment" id="input1" value="1" required>Дитяча косметика<br>
+            </label>
+            <label>
+              <input type="radio" name="assortment" id="input2" value="2">Лікарські засоби вітчизняного виробництва<br>
+            </label>
+            <label>
+              <input type="radio" name="assortment" id="input3" value="3">Лікарські засоби імпортного виробництва<br>
+            </label>
+            <label>
+              <input type="radio" name="assortment" id="input4" value="4">Косметика<br>
+              <input type="radio" name="assortment" id="input4" value="4">
+            <input type="text" name="answer4" id="input4" placeholder="Ваш варіант"><br>
+        </li>
+    </ol>
+        <label>Ваше повідомлення:<br>
+            <textarea placeholder="Ваше повідомлення"></textarea>
+        </label>
+        <br>
+        <label>Ваше Ім'я:
+            <input type="text" name="Ваше Ім'я" placeholder="Ваше Ім'я" required>
+            </label><br>
+        <label>Ваша ел. пошта:   
+            <input type="email" name="Ваша елек. пошта" placeholder="Ваша елек. пошта" required></label><br>
+        <label>Ваш контактний телефон:   
+            <input type="tel" name="Ваш контактний телефон" placeholder="012 345 67 89"></label><br>
+    <input type="submit" value="Надіслати">
+    <input type="reset" value="Скасувати">
+</form>
+    
+    <a href="tables.html">Таблиця</a>
+</body>
+</html>
